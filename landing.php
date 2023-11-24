@@ -196,7 +196,7 @@ $row_usu = mysql_fetch_array($res);
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
         	<!-- PRIMER SLIDE-->
-          <div class="item active" style="background-image: url('img/noticias/integridad.png'); background-position: center center">
+          <div class="item active" style="background-image: url('img/integridad_noticias.png'); background-position: center center">
             <div class="caption">
                 <small>Noticias</small><br>
                 <strong>Línea de integridad</strong><br>
