@@ -4,3 +4,4 @@ node_modules
 .mp4
 videos/
 torneo.mp4
+vendor/

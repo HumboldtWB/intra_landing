@@ -1,17 +1,16 @@
 <?php
-session_start();
-$correo=$_SESSION["correo"]; 
-include_once("includes/session.php");
-include_once("includes/conectar_ext.php");
-date_default_timezone_set('America/Bogota');
-setlocale(LC_TIME, 'es_CO.UTF-8');
-$bus_por = 0;
-$bus_inv = 0;
-$bus_por = $_POST["bus_por"];
-$bus_inv = $_POST["bus_inv"];
-
-$res = mysql_query("SELECT * FROM investigadores WHERE str_cor = '$correo' LIMIT 0 , 1");
-$row_usu = mysql_fetch_array($res);
+  session_start();
+  $correo=$_SESSION["correo"]; 
+  include_once("includes/session.php");
+  include_once("includes/conectar_ext.php");
+  date_default_timezone_set('America/Bogota');
+  setlocale(LC_TIME, 'es_CO.UTF-8');
+  $bus_por = 0;
+  $bus_inv = 0;
+  $bus_por = $_POST["bus_por"];
+  $bus_inv = $_POST["bus_inv"];
+  $res = mysql_query("SELECT * FROM investigadores WHERE str_cor = '$correo' LIMIT 0 , 1");
+  $row_usu = mysql_fetch_array($res); 
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -38,14 +37,13 @@ $row_usu = mysql_fetch_array($res);
   <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30877272-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L78B6Q2D4D"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-30877272-1');
+    gtag('config', 'G-L78B6Q2D4D');
   </script>
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>  
@@ -194,7 +192,7 @@ $row_usu = mysql_fetch_array($res);
             <a type="button" data-toggle="modal" data-target="#myModal" class="img-fluid mx-auto d-block">
               <img src="../img/noticias/NuevoOrganigrama.png" alt="" class="img-fluid" style="cursor: pointer;">
             </a>            
-            <span style="margin-top: 1em;display: block;">Nuevo Organigrama</span>
+            <span style="margin-top: 1em;display: block;">Nuevo Organigrama - Diciembre 2023</span>
           </div>
           <div class="col-md-4">
             <a href="http://humboldt.org.co/video/presentacion.pdf">

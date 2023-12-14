@@ -11,7 +11,6 @@ $bus_por = $_POST["bus_por"];
 $bus_inv = $_POST["bus_inv"];
 $res = mysql_query("SELECT * FROM investigadores WHERE str_cor = '$correo' LIMIT 0 , 1");
 $row_usu = mysql_fetch_array($res); 
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -38,19 +37,7 @@ $row_usu = mysql_fetch_array($res);
   <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/web-component@6.1.4/index.global.min.js'></script>
   <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.4/index.global.min.js'></script>
   <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.4/locales-all.global.min.js"></script>
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script type="text/javascript">        
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-30877272-1']);
-    _gaq.push(['_setDomainName', 'humboldt.org.co']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">  
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L78B6Q2D4D"></script>
   <script>
