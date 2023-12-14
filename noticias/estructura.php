@@ -189,7 +189,7 @@
         
         <div class="row">
           <div class="col-md-4">
-            <a type="button" data-toggle="modal" data-target="#myModal" class="img-fluid mx-auto d-block">
+            <a href="../documentos/nuevo-organigrama-2023.pdf" target="_blank" class="img-fluid mx-auto d-block">
               <img src="../img/noticias/NuevoOrganigrama.png" alt="" class="img-fluid" style="cursor: pointer;">
             </a>            
             <span style="margin-top: 1em;display: block;">Nuevo Organigrama - Diciembre 2023</span>
