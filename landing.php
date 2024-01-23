@@ -834,14 +834,8 @@ $row_usu = mysql_fetch_array($res);
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body" style="background-color: #eee; border-radius: 10px;">  
-          <p class="text-center">
-            <br>
-            <strong style="font-size: 1.2em;">Recuerda las fechas de cierre del año 2023</strong>
-          </p>        
-          <a class="btn btn-primary" style="color: #fff;margin: 0 auto; display: block; max-width: max-content;" href="documentos/circular-2023.pdf" target="_blank">Consulta la circular aquí</a>
-          <br>
-          <p class="text-center">¿No recibes los correos del boletín de Mailchimp?</p>
+        <div class="modal-body" style="background-color: #eee; border-radius: 10px;">            
+          <p class="text-center"><strong>¿No recibes los correos del boletín de Mailchimp?</strong></p>
           <a href="#mc_embed_signup" class="btn btn-primary"  style="color: #fff;margin: 0 auto; display: block; max-width: max-content;">
             Registrate
           </a>
