@@ -333,20 +333,20 @@ $row_usu = mysql_fetch_array($res);
         <h3><span style="color:#113545; font-weight:800">|</span>&nbsp; Eventos institucionales</h3>
         <br>
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-12">
             <full-calendar/>
           </div>
-          <div class="col-md-5">
-            <!-- <a href="https://www.youtube.com/watch?v=9btAQp2psz4" target="_blank" rel="noopener noreferrer">
+          <!--<div class="col-md-5">
+             <a href="https://www.youtube.com/watch?v=9btAQp2psz4" target="_blank" rel="noopener noreferrer">
               <img src="img/eventos/genomica.jpg" alt="redin" class="img-fluid">
-            </a>             -->
+            </a>             
             <a href="https://humboldt.us4.list-manage.com/track/click?u=8b7b6e645360b5ca05e9feecf&id=98147ae8fc&e=20fb64d2c3" target="_blank" rel="noopener noreferrer">
               <img src="img/fest.jpg" alt="evento dirección" class="img-fluid">
             </a>
             <p style="padding-top:20px ;">
               Recuerda que en el Humboldt Fest tendrás la oportunidad de apoyar algunas de las comunidades con las cuales tuvimos la fortuna de trabajar durante el 2022. Aprovecha para conocer y comprar sus productos gastronómicos y artesanales.
             </p>
-          </div>
+          </div>-->
         </div>
       </div>
       
@@ -505,14 +505,14 @@ $row_usu = mysql_fetch_array($res);
 
             <div class="col-12 col-md-4 col-lg-4 p-3" style="height: 200px; margin-bottom:20px; font-size: 90%;">
               <div class="Contentlanding">
-                <a href="http://humboldt.org.co/es/boletines-y-comunicados/item/1806-en-la-colombia-birdfair-toma-vuelo-la-estrategia-nacional-para-la-conservacion-de-las-aves-enca-2030" target="_blank">
+                <a href="https://www.humboldt.org.co/noticias/como-ayudar-a-la-biodiversidad-despues-de-un-incendio-forestal" target="_blank">
                   <div class="cajonlandingright" style="width:100%; height: 200px">
-                    <div style="width:50%; float: left; background-image: url('http://humboldt.org.co/images/imagenes/prensa/header.jpg'); background-repeat: no-repeat; background-size: cover; ; height: 200px">
+                    <div style="width:50%; float: left; background-image: url('https://assets-global.website-files.com/64df6dd37ac6a0dbb9d03cb3/65c547efa66e3df5fc51ebaa_plantas-en-vivero-Instituto-Humboldt-2-p-1600.jpg'); background-repeat: no-repeat; background-size: cover; ; height: 200px">
                     </div>
                     <div style="width:50%; padding:10px; float: left; height: 200px">                        
-                        <strong>En la Colombia BirdFair toma vuelo la Estrategia Nacional para la Conservación de las Aves ENCA 2030</strong>
+                        <strong>¿Cómo ayudar a la biodiversidad después de un incendio forestal?</strong>
                         <br> <br>
-                        La ENCA 2030 es resultado de un año y medio de un amplio proceso...
+                        Los incendios forestales que vienen presentándose en diferentes...
                     </div>
                   </div>
                 </a>
@@ -524,7 +524,7 @@ $row_usu = mysql_fetch_array($res);
               <div class="Contentlanding">
                 <a href="http://humboldt.org.co/es/boletines-y-comunicados/item/1812-dia-internacional-para-la-proteccion-de-los-osos-del-mundo" target="_blank">
                   <div class="cajonlandingright" style="width:100%; height: 200px">
-                    <div style="width:50%; float: left; background-image: url('http://humboldt.org.co/images/imagenes/prensa/tremarctos_ornatus_7457_nieto_montano_francisco.jpg'); background-repeat: no-repeat; background-size: cover; ; height: 200px">
+                    <div style="width:50%; float: left; background-image: url('https://assets-global.website-files.com/64df6dd37ac6a0dbb9d03cb3/65914bb564aed4b6f46d67a9_Instituto-Humboldt-anolis-de-rivalis.jpg'); background-repeat: no-repeat; background-size: cover; ; height: 200px">
                     </div>
                     <div style="width:50%; padding:10px; float: left; height: 200px">                        
                         <strong>Día Internacional para la Protección de los Osos del Mundo</strong> 
@@ -540,7 +540,7 @@ $row_usu = mysql_fetch_array($res);
               <div class="Contentlanding">
                 <a href="http://humboldt.org.co/es/boletines-y-comunicados/item/1813-escuchar-para-resguardar-los-bosques" target="_blank">
                   <div class="cajonlandingright" style="width:100%; height: 200px">
-                    <div style="width:50%; float: left; background-image: url('http://humboldt.org.co/images/imagenes/Comunicados/HUAW0312_Felipe%20Villegas.jpg'); background-repeat: no-repeat; background-size: cover; ; height: 200px">
+                    <div style="width:50%; float: left; background-image: url('https://assets-global.website-files.com/64df6dd37ac6a0dbb9d03cb3/65914d8f8278793c09ba32d9_Instituto-Humboldt-instalacion-equipo-en-copa-de-arbol.jpg'); background-repeat: no-repeat; background-size: cover; ; height: 200px">
                     </div>
                     <div style="width:50%; padding:10px; float: left; height: 200px">                        
                         <strong>Escuchar para resguardar los bosques
@@ -849,7 +849,7 @@ $row_usu = mysql_fetch_array($res);
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="http://humboldt.org.co/newjs/eventos.js"></script>
+  <script src="eventos.js"></script>
   
        
   <script>
