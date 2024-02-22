@@ -195,7 +195,7 @@
             <span style="margin-top: 1em;display: block;">Nuevo Organigrama - Febrero 2024</span>
           </div>
           <div class="col-md-4">
-            <a href="http://humboldt.org.co/video/presentacion.pdf">
+            <a href="https://drive.google.com/file/d/1bHEVqPFjOC6-m-O-t3nAxOL29aW_JziD/view?usp=drive_link">
               <img src="../img/noticias/presentacion.jpg" alt="presentacion" class="img-fluid">
             </a>
             <span style="margin-top: 1em;display: block;">Presentación</span>
@@ -210,7 +210,7 @@
         
         <div class="row pt-5">
           <div class="col-md-8">
-            <video src="http://humboldt.org.co/video/estructura.mp4" controls width="100%" poster="../img/noticias/video-presentacion.jpg"></video>
+            <video src="https://drive.google.com/file/d/1oSQ6cUE5sBGLTHJj-osZPezE4K3z6vdp/view?usp=drive_link" controls width="100%" poster="../img/noticias/video-presentacion.jpg"></video>
           </div>
           <div class="col-md-4">
             <Strong>Notas</Strong>
