@@ -189,10 +189,10 @@
         
         <div class="row">
           <div class="col-md-4">
-            <a href="https://drive.google.com/file/d/13Ca9PExmYx83O4K9tIEBBAmRn16YjoLw/view?usp=drive_link" target="_blank" class="img-fluid mx-auto d-block">
+            <a href="https://drive.google.com/file/d/1bHEVqPFjOC6-m-O-t3nAxOL29aW_JziD/view?usp=drive_link" target="_blank" class="img-fluid mx-auto d-block">
               <img src="../img/organigrama.jpg" alt="" class="img-fluid" style="cursor: pointer;">
             </a>            
-            <span style="margin-top: 1em;display: block;">Nuevo Organigrama - Febrero 2024</span>
+            <span style="margin-top: 1em;display: block;">Nuevo Organigrama - Marzo 2024</span>
           </div>
           <div class="col-md-4">
             <a href="https://drive.google.com/file/d/1bHEVqPFjOC6-m-O-t3nAxOL29aW_JziD/view?usp=drive_link">
