@@ -179,8 +179,7 @@ $row_usu = mysql_fetch_array($res);
           <strong>Papersona: Tertulias de artículos</strong> <br>
           Si estás interesado en discutir artículos científicos con tus colegas, no te pierdas este espacio. 
           Si quieres conocer más sobre esta iniciativa, contáctate con: <br>
-          Bibiana Gómez Valencia - bgomezv@humboldt.org.co <br>
-          Gabriel Alejandro Perilla - gperilla@humboldt.org.co <br>
+          Bibiana Gómez Valencia - bgomezv@humboldt.org.co <br>          
           Horario: <br>
           Viernes cada 15 días  <br>
           4:00 p.m. a 5:00 p.m. <br>
