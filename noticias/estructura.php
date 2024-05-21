@@ -232,6 +232,11 @@
                   Conocimiento transformativo
                 </a>
               </li>
+              <li>
+                <a href="../documentos/Transicion-organizacional.pdf" style="color: #696969; text-wrap: nowrap;" target="_blank">
+                  Documento de transición - Diseño organizacional
+                </a>
+              </li>
             </ul>
           </div>
         </div>
