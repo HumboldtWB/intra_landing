@@ -5,3 +5,4 @@ node_modules
 videos/
 torneo.mp4
 vendor/
+.vscode/settings.json
