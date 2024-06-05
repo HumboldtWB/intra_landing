@@ -183,17 +183,38 @@ $row_usu = mysql_fetch_array($res);
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
         	<!-- PRIMER SLIDE-->
-          <div class="item active" style="background-image: url('img/integridad_noticias.png'); background-position: center center">
+          <div class="item active" style="background-image: url('img/noticias/Banner-min.png'); background-position: center center">
             <div class="caption">
                 <small>Noticias</small><br>
-                <strong>Línea de integridad</strong><br>
-                <a href="https://teescuchamoshumboldt.ethicsglobal.com/?l=es#modal" style="color:#93BF1F !important">Acceder</a>
+                <strong>Reglamento interno</strong><br>
+                <a href="http://intranet.humboldt.org.co/sgc/AGR-GH-R-01%20Reglamento%20interno%20de%20trabajo.pdf" style="color:#93BF1F !important">Consultar</a>
             </div>
           </div>
                                           
            <!-- FIN PRIMER SLIDE-->
 
 			    <!-- SEGUNDO SLIDE--> 
+          <div class="item" style="background-image: url('img/noticias/Banner-intranet.png'); background-position: center center">
+            <div class="caption">
+                <small>Noticias</small><br>
+                <strong>Política de acoso</strong><br>
+                <a href="http://intranet.humboldt.org.co/sgc/AGH-PL-02%20Pol%C3%ADtica%20Para%20la%20prevenci%C3%B3n%20y%20atenci%C3%B3n%20del%20acoso%20laboral,%20el%20abuso%20de%20poder%20con%20fines%20sexuales%20y%20la%20discriminaci%C3%B3n%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.pdf" style="color:#93BF1F !important">Ver más</a>
+            </div>
+          </div>
+                    
+            
+          <!-- TERCERO SLIDE--> 
+          <div class="item" style="background-image: url('img/integridad_noticias.png'); background-position: center center">
+            <div class="caption">
+                <small>Noticias</small><br>
+                <strong>Línea de integridad</strong><br>
+                <a href="https://teescuchamoshumboldt.ethicsglobal.com/?l=es#modal" style="color:#93BF1F !important">Acceder</a>
+            </div>
+          </div>               
+            
+          <!-- FIN TERCERO SLIDE-->
+
+          <!--  CUARTO SLIDE--> 
           <div class="item" style="background-image: url('img/noticias/2022/Pararparacompartir.jpg'); background-position: center center">
             <div class="caption">
                 <small>Noticias</small><br>
@@ -201,27 +222,6 @@ $row_usu = mysql_fetch_array($res);
                 <a href="noticias/parar.php" style="color:#93BF1F !important">Ver más</a>
             </div>
           </div>
-                    
-            
-          <!-- TERCERO SLIDE--> 
-          <div class="item" style="background-image: url('img/noticias/colecciones/ASA_2099_Felipe\ Villegas.jpg'); background-position: center center">
-            <div class="caption">
-                <small>Noticias</small><br>
-                <strong>Colecciones Biológicas y el Registro Único Nacional de Colecciones Biológicas</strong><br>
-                <a href="noticias/colecciones.php" style="color:#93BF1F !important">Ver más</a>
-            </div>
-          </div>                
-            
-          <!-- FIN TERCERO SLIDE-->
-
-          <!--  CUARTO SLIDE--> 
-          <div class="item" style="background-image: url('img/noticias/maleta/home.jpg'); background-position: center center">
-            <div class="caption">
-                <small>Noticias</small><br>
-                <strong>Historia Natural y Colecciones Biológicas</strong><br>
-                <a href="noticias/maleta-viajera.php" style="color:#93BF1F !important">Ver más</a>
-            </div>
-          </div> 
                                 
           <!-- FIN CUARTO SLIDE-->
 
@@ -230,10 +230,10 @@ $row_usu = mysql_fetch_array($res);
         <!-- BOTONES SLIDER-->
         <!-- End Carousel Inner -->
         <ul class="nav nav-pills nav-fill">
-          <li data-target="#myCarousel" data-slide-to="0" class="active activadorBanner"><a href="#" style="padding:20px">Línea de integridad</a></li>
-        	<li data-target="#myCarousel" data-slide-to="1"><a href="#" style="padding:20px">Parar para respirar</a></li>
-          <li data-target="#myCarousel" data-slide-to="2"><a href="#" style="padding:20px">Colecciones Biológicas y RNC</a></li>
-          <li data-target="#myCarousel" data-slide-to="3"><a href="#" style="padding:20px">Historia Natural</a></li>                                   
+          <li data-target="#myCarousel" data-slide-to="0" class="active activadorBanner"><a href="#" style="padding:20px">Reglamento interno</a></li>
+        	<li data-target="#myCarousel" data-slide-to="1"><a href="#" style="padding:20px">Política de acoso</a></li>
+          <li data-target="#myCarousel" data-slide-to="2"><a href="#" style="padding:20px">Línea de integridad</a></li>
+          <li data-target="#myCarousel" data-slide-to="3"><a href="#" style="padding:20px">Parar para respirar</a></li>                                   
         </ul>
     </div>
     <!-- End Carousel -->
